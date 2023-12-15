@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html>
+</head>
+<title>Antecessor e Sucessor</title>
+<style> 
+.container { 
+    text-align:center;
+    margin-top: 50px;
+
+}
+</style>
+<head>
+ <body>
+     <div class="container">
+         <h2>Antecessor e Sucessor</h2>
+         <button onclick="mostrarNumero()">Antecessor e Sucessor</button>
+     </div> 
+
+     <script> 
+     function mostrarNumero() {
+         var numero = parseInt(prompt("Digite um número inteiro:"));
+         if (!isNaN(numero)) { 
+             var antecessor = numero - 1;
+             var sucessor = numero + 1; 
+
+             alert("Antecessor" +antecessor + "\nSucessor" +sucessor);
+         } else {
+             alert("Por favor, digite um número válido!");
+
+
+         }
+     }
+    
+    </script> 
+</body>
+</html>
