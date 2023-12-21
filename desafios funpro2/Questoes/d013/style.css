@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 800px;
+    height: auto;
+    border: solid 5px rgb(73, 2, 73);
+    border-radius: 11px;
+    padding: 30px;
+    margin: 8% auto;
+    background-color: rgb(73, 2, 73);
+}
+
+h3{
+    font-size: 2.3rem;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+}
+
+.container .inputs{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    gap: 10px;
+    width: 100%;
+}
+
+.container .inputs .label-input{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.container .inputs .input-forms{
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .inputs #aluno{
+    margin-bottom: 15px;
+}
+
+.container .inputs #nota_1{
+    margin-bottom: 15px;
+}
+
+.container .inputs #nota_2{
+    margin-bottom: 15px;
+}
+
+
+.container button{
+    width: 100%;
+    padding: 15px;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: rgb(32, 202, 89);
+    color: rgb(31, 31, 31);
+    border-radius: 6px;
+}
+
+.container .respostas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    gap: 10px;
+}
+

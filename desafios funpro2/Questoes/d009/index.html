@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reajuste Salarial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h3 class="title">Reajuste Salarial</h3>
+        <div class="inputs">
+            <label for="funcionario" class="label-input">Nome do Funcionário</label>
+            <input type="text" name="funcionario" id="funcionario" class="input-forms" placeholder="Digite o nome do Funcionario">
+            <label for="salario" class="label-input">Salário do Funcionário</label>
+            <input type="number" name="salario" id="salario" class="input-forms" placeholder="Digite o salário inicial">
+            <label for="porcentagem" class="label-input">Porcentagem a ser Calculada</label>
+            <input type="number" name="porcentagem" id="porcentagem" class="input-forms" placeholder="Digite uma porcentagem">
+        </div>
+        <button onclick="reajusteSalarial()" class="btn-input">Calcular</button>
+        <div class="respostas">
+            <span class="resposta-1" id="resposta_1"></span>
+            <span class="resposta-2" id="resposta_2"></span>
+            <span class="resposta-3" id="resposta_3"></span>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

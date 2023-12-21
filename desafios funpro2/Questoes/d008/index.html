@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desconto de 10%</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h3 class="title">Calcular Desconto</h3>
+        <div class="inputs">
+            <label for="produto" class="label-input">Nome do Produto</label>
+            <input type="text" name="produto" id="produto" class="input-forms" placeholder="Digite o nome do Produto">
+            <label for="preco" class="label-input">Preço do produto</label>
+            <input type="number" name="preco" id="preco" class="input-forms" placeholder="Digite um valor">
+        </div>
+        <button onclick="calculaDesconto()" class="btn-input">Calcular</button>
+        <div class="respostas">
+            <span class="resposta-1" id="resposta_1"></span>
+            <span class="resposta-2" id="resposta_2"></span>
+            <span class="resposta-3" id="resposta_3"></span>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

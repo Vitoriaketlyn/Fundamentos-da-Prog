@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situação do Aluno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h3 class="title">Situação do Aluno</h3>
+        <div class="inputs">
+            <label for="aluno" class="label-input">Nome do Aluno</label>
+            <input type="text" name="aluno" id="aluno" class="input-forms" placeholder="Digite o nome do aluno">
+            <label for="nota-1" class="label-input">Primeira nota do aluno(a)</label>
+            <input type="number" name="nota-1" id="nota_1" class="input-forms" maxlength="2" placeholder="Digite a primeira nota">
+            <label for="nota-2" class="label-input">Segunda nota do aluno(a)</label>
+            <input type="number" name="nota-2" id="nota_2" class="input-forms" maxlength="2" placeholder="Digite a segunda nota">
+        </div>
+        <button onclick="calculaMedia()" class="btn-input">Calcular</button>
+        <div class="respostas">
+            <span class="resposta-1" id="resposta_1"></span>
+            <span class="resposta-2" id="resposta_2"></span>
+            <span class="resposta-3" id="resposta_3"></span>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
